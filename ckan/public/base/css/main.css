@@ -2204,6 +2204,7 @@ button.close {
   -webkit-appearance: none;
 }
 .btn {
+  transition: all 150ms linear;
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
@@ -2215,45 +2216,9 @@ button.close {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  color: #333333;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-  background-color: #f7f7f7;
-  background-image: -moz-linear-gradient(top, #ffffff, #eaeaea);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#eaeaea));
-  background-image: -webkit-linear-gradient(top, #ffffff, #eaeaea);
-  background-image: -o-linear-gradient(top, #ffffff, #eaeaea);
-  background-image: linear-gradient(to bottom, #ffffff, #eaeaea);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffeaeaea', GradientType=0);
-  border-color: #eaeaea #eaeaea #c4c4c4;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #eaeaea;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  border: 1px solid #cccccc;
   *border: 0;
   border-bottom-color: #b3b3b3;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
   *margin-left: .3em;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
-  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
-}
-.btn:hover,
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn.disabled,
-.btn[disabled] {
-  color: #333333;
-  background-color: #eaeaea;
-  *background-color: #dddddd;
-}
-.btn:active,
-.btn.active {
-  background-color: #d1d1d1 \9;
 }
 .btn:first-child {
   *margin-left: 0;
@@ -2350,35 +2315,12 @@ input[type="button"].btn-block {
   color: rgba(255, 255, 255, 0.75);
 }
 .btn-primary {
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #206b82;
-  background-image: -moz-linear-gradient(top, #30778d, #085871);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#30778d), to(#085871));
-  background-image: -webkit-linear-gradient(top, #30778d, #085871);
-  background-image: -o-linear-gradient(top, #30778d, #085871);
-  background-image: linear-gradient(to bottom, #30778d, #085871);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff30778d', endColorstr='#ff085871', GradientType=0);
-  border-color: #085871 #085871 #03202a;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #085871;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-color: #6EB3DC;
+  color: #fff;
 }
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.btn-primary.disabled,
-.btn-primary[disabled] {
-  color: #ffffff;
-  background-color: #085871;
-  *background-color: #064559;
-}
-.btn-primary:active,
-.btn-primary.active {
-  background-color: #053341 \9;
+.btn-primary:hover {
+  background-color: #D99DD9;
+  color: #fff;
 }
 .btn-warning {
   color: #ffffff;
@@ -3439,10 +3381,6 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a:focus {
   color: #555555;
   text-decoration: none;
-  background-color: #e5e5e5;
-  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
 }
 .navbar .btn-navbar {
   display: none;
@@ -6542,35 +6480,12 @@ textarea {
   display: none;
 }
 .control-custom.disabled .checkbox.btn {
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #206b82;
-  background-image: -moz-linear-gradient(top, #30778d, #085871);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#30778d), to(#085871));
-  background-image: -webkit-linear-gradient(top, #30778d, #085871);
-  background-image: -o-linear-gradient(top, #30778d, #085871);
-  background-image: linear-gradient(to bottom, #30778d, #085871);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff30778d', endColorstr='#ff085871', GradientType=0);
-  border-color: #085871 #085871 #03202a;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #085871;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-color: #6EB3DC;
+  color: #fff;
 }
-.control-custom.disabled .checkbox.btn:hover,
-.control-custom.disabled .checkbox.btn:focus,
-.control-custom.disabled .checkbox.btn:active,
-.control-custom.disabled .checkbox.btn.active,
-.control-custom.disabled .checkbox.btn.disabled,
-.control-custom.disabled .checkbox.btn[disabled] {
-  color: #ffffff;
-  background-color: #085871;
-  *background-color: #064559;
-}
-.control-custom.disabled .checkbox.btn:active,
-.control-custom.disabled .checkbox.btn.active {
-  background-color: #053341 \9;
+.control-custom.disabled .checkbox.btn:hover {
+  background-color: #D99DD9;
+  color: #fff;
 }
 .control-custom.disabled .checkbox.btn .caret {
   border-top-color: #ffffff;
@@ -8325,7 +8240,7 @@ h4 small {
   *zoom: 1;
   min-height: 30px;
   color: #ffffff;
-  background: #003647 url("../../../base/images/bg.png");
+  background-color: #464646;
 }
 .account-masthead:before,
 .account-masthead:after {
@@ -8394,7 +8309,7 @@ h4 small {
   -moz-border-radius: 4px;
   border-radius: 4px;
   text-shadow: none;
-  color: #bfd7de;
+  color: #fff;
 }
 .account-masthead .account .notifications a:hover span {
   color: #ffffff;
@@ -8473,6 +8388,7 @@ h4 small {
 }
 .masthead .navigation .nav-pills li a:hover,
 .masthead .navigation .nav-pills li.active a {
+  background-color: #fff;
   color: #CC7ACC;
 }
 .masthead .nav > li > a,
