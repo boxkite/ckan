@@ -12,7 +12,7 @@
       li {
         display: block;
         float: left;
-        border-left: 1px solid darken(@mastheadBackgroundColor, 15%);
+        border-left: 1px solid #fff;
         a {
           display: block;
           color: #fff;
@@ -84,8 +84,8 @@
 .masthead {
   .clearfix();
   min-height: 55px;
-  color: #464646;
-  background: #fff;
+  color: #fff;
+  background: #00a6e5;
   border-bottom: 1px solid #eeeeee;
 
   .container {
@@ -93,7 +93,7 @@
   }
 
   a {
-    color: #464646;
+    color: #fff;
   }
 
   hgroup {
@@ -107,6 +107,7 @@
       font-weight: 900;
       letter-spacing: -1px;
       margin: 3px 0;
+      padding:3px 0;
     }
     h2 {
       position: absolute;
@@ -145,8 +146,8 @@
 
         a:hover,
         &.active a {
-          background-color: #fff;
-          color:#6EB3DC;
+          background-color: #00a6e5;
+          color:#fff;
         }
       }
     }
@@ -157,10 +158,11 @@
   .nav > .active > a,
   .nav > .active > a:hover,
   .nav > .active > a:focus {
-    color: #464646;
+    color: #fff;
     text-shadow: none;
     transition:all 100ms linear;
     font-weight: 500;
+    font-size: 1.15em;
   }
 
   .site-search {

@@ -192,7 +192,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #444444;
@@ -878,7 +878,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 label {
   display: block;
@@ -5406,11 +5406,8 @@ a.badge:focus {
   margin-bottom: 4px;
   color: #111111;
   background-color: #f6f6f6;
-  padding: 1px 10px;
+  padding: 10px 50px;
   border: 1px solid #dddddd;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
   transition: all 150ms linear;
 }
 a.tag:hover {
@@ -8174,7 +8171,7 @@ h4 small {
 .homepage .module-search .tags h3,
 .homepage .module-search .tags .tag {
   float: left;
-  margin: 5px 10px 0 0;
+  margin: 5px 30px 0 0;
 }
 .homepage .module-search .tags h3 {
   font-size: 14px;
@@ -8271,7 +8268,7 @@ h4 small {
 .account-masthead .account ul li {
   display: block;
   float: left;
-  border-left: 1px solid #00232e;
+  border-left: 1px solid #fff;
 }
 .account-masthead .account ul li a {
   display: block;
@@ -8333,8 +8330,8 @@ h4 small {
 .masthead {
   *zoom: 1;
   min-height: 55px;
-  color: #464646;
-  background: #fff;
+  color: #fff;
+  background: #00a6e5;
   border-bottom: 1px solid #eeeeee;
 }
 .masthead:before,
@@ -8350,7 +8347,7 @@ h4 small {
   position: relative;
 }
 .masthead a {
-  color: #464646;
+  color: #fff;
 }
 .masthead hgroup h1,
 .masthead hgroup h2 {
@@ -8362,6 +8359,7 @@ h4 small {
   font-weight: 900;
   letter-spacing: -1px;
   margin: 3px 0;
+  padding: 3px 0;
 }
 .masthead hgroup h2 {
   position: absolute;
@@ -8390,8 +8388,8 @@ h4 small {
 }
 .masthead .navigation .nav-pills li a:hover,
 .masthead .navigation .nav-pills li.active a {
-  background-color: #fff;
-  color: #6EB3DC;
+  background-color: #00a6e5;
+  color: #fff;
 }
 .masthead .nav > li > a,
 .masthead .nav > li > a:focus,
@@ -8399,10 +8397,11 @@ h4 small {
 .masthead .nav > .active > a,
 .masthead .nav > .active > a:hover,
 .masthead .nav > .active > a:focus {
-  color: #464646;
+  color: #fff;
   text-shadow: none;
   transition: all 100ms linear;
   font-weight: 500;
+  font-size: 1.15em;
 }
 .masthead .site-search {
   margin: 2px 8px 2px 0;
