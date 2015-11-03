@@ -7976,7 +7976,7 @@ h4 small {
 @media (min-width: 768px) {
   .hero {
     background: url("../../../base/images/guelph_bg.svg") no-repeat center bottom;
-    height: 500px;
+    height: 550px;
   }
 }
 .welcome {
@@ -8121,6 +8121,36 @@ h4 small {
   -moz-box-shadow: 0 0 0 1px #ffffff;
   box-shadow: 0 0 0 1px #ffffff;
 }
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
 .guelph-search-category {
   padding-top: 3em;
 }
@@ -8138,6 +8168,9 @@ h4 small {
 }
 .guelph-search-category .box .module-heading {
   background-color: #00A6E5;
+}
+.guelph-search-category .box .module-heading h3 a {
+  color: #fff;
 }
 .homepage .row {
   position: relative;

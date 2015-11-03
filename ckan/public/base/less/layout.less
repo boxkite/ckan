@@ -142,7 +142,7 @@
 @media (min-width: 768px) {
   .hero {
     background: url("@{imagePath}/guelph_bg.svg") no-repeat center bottom;
-    height:500px;
+    height:550px;
   }
 }
 
@@ -275,6 +275,44 @@
   }
 }
 
+//***** GUELPH SPECIFIC CSS
+
+.animated { 
+    -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+
+@-webkit-keyframes fadeInDown { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateY(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateY(0); 
+    } 
+} 
+
+@keyframes fadeInDown { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateY(0); 
+    } 
+} 
+
+.fadeInDown { 
+    -webkit-animation-name: fadeInDown; 
+    animation-name: fadeInDown; 
+}
+
+
+
 .guelph-search-category {
   padding-top:3em;
 
@@ -282,6 +320,7 @@
     font-size: 24px;
     font-weight: 400;
   }
+
   .box {
     width:200px;
     height:200px;
@@ -292,6 +331,11 @@
 
     .module-heading {
       background-color: #00A6E5;
+      h3 {
+        a {
+          color:#fff;
+        }
+      }
     }
   }
 }
