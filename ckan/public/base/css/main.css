@@ -7976,7 +7976,7 @@ h4 small {
 @media (min-width: 768px) {
   .hero {
     background: url("../../../base/images/guelph_bg.svg") no-repeat center bottom;
-    height: 550px;
+    height: 575px;
   }
 }
 .welcome {
@@ -8185,17 +8185,17 @@ h4 small {
 }
 .homepage .search {
   width: 100%;
-  background-color: #464646;
+  background-color: #efefef;
   padding-bottom: 1.5em;
 }
 .homepage .module-search {
-  color: #ffffff;
+  color: #464646;
 }
 .homepage .module-search .search-giant {
   margin-bottom: 10px;
 }
 .homepage .module-search .search-giant input {
-  border-color: #fff;
+  border-color: #d9d9d9;
   background-color: #fff;
 }
 .homepage .module-search .module-content {
@@ -8292,7 +8292,7 @@ h4 small {
   *zoom: 1;
   min-height: 30px;
   color: #ffffff;
-  background-color: #464646;
+  background-color: #00A6E5;
 }
 .account-masthead:before,
 .account-masthead:after {
@@ -8384,7 +8384,7 @@ h4 small {
   *zoom: 1;
   min-height: 55px;
   color: #fff;
-  background: #00a6e5;
+  background: #464646;
   border-bottom: 1px solid #eeeeee;
 }
 .masthead:before,
