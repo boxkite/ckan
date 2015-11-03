@@ -8124,13 +8124,20 @@ h4 small {
 .guelph-search-category {
   padding-top: 3em;
 }
+.guelph-search-category h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
 .guelph-search-category .box {
   width: 200px;
   height: 200px;
   margin: 1em;
-  display: inline-block;
+  display: inline-flex;
   background-color: #00A6E5;
   color: #fff;
+}
+.guelph-search-category .box .module-heading {
+  background-color: #00A6E5;
 }
 .homepage .row {
   position: relative;
@@ -8145,7 +8152,7 @@ h4 small {
 }
 .homepage .search {
   width: 100%;
-  background-color: #6EB3DC;
+  background-color: #464646;
   padding-bottom: 1.5em;
 }
 .homepage .module-search {
