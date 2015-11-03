@@ -7975,13 +7975,14 @@ h4 small {
 }
 @media (min-width: 768px) {
   .hero {
-    background: url("../../../base/images/background-main.jpg") no-repeat center left;
+    background: url("../../../base/images/guelph_bg.svg") no-repeat center bottom;
+    height: 500px;
   }
 }
 .welcome {
-  padding: 5em 0;
-  float: right;
-  width: 500px;
+  padding-top: 4em;
+  width: 175px;
+  margin: 0 auto;
 }
 .welcome h2 {
   font-size: 2.25em;
@@ -7993,7 +7994,8 @@ h4 small {
   line-height: 1.75em;
 }
 .welcome img {
-  height: 300px;
+  width: 100%;
+  margin-left: -1em;
 }
 .hero:after {
   background-color: rgba(0, 0, 0, 0.09);
