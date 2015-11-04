@@ -8121,15 +8121,6 @@ h4 small {
   -moz-box-shadow: 0 0 0 1px #ffffff;
   box-shadow: 0 0 0 1px #ffffff;
 }
-body {
-  font-size: 14px;
-}
-body h2 {
-  font-size: 21px;
-}
-body h3 {
-  font-size: 18px;
-}
 .animated {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -8164,7 +8155,7 @@ body h3 {
   padding-top: 3em;
 }
 .guelph-search-category h2 {
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 400;
 }
 .guelph-search-category .box {
@@ -8192,6 +8183,8 @@ body h3 {
 }
 .guelph-search-category .box .module-heading h3 a {
   color: #fff;
+  font-size: 18px;
+  font-weight: 400;
 }
 .guelph-search-category .box .module-heading .media-heading {
   padding-top: 20px;
@@ -8481,11 +8474,12 @@ body h3 {
   font-size: 1.15em;
 }
 .masthead .site-search {
-  margin: 2px 8px 2px 0;
-}
-.masthead .site-search input {
-  width: 200px;
-  padding: 4px 10px;
+  /*margin: 2px 8px 2px 0;
+    input {
+      width: 200px;
+      padding: 4px 10px;
+    }*/
+  display: none;
 }
 .masthead .btn-navbar,
 .masthead .btn-navbar:hover,
