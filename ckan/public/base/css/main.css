@@ -8165,6 +8165,19 @@ h4 small {
   display: inline-flex;
   background-color: #00A6E5;
   color: #fff;
+  text-align: center;
+}
+.guelph-search-category .box img {
+  text-align: center;
+  margin: 0 auto;
+  width: 100px;
+}
+.guelph-search-category .box .module {
+  margin: 20px auto;
+}
+.guelph-search-category .box .module-image {
+  float: none;
+  margin-right: 0;
 }
 .guelph-search-category .box .module-heading {
   background-color: #00A6E5;
