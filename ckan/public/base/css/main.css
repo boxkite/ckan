@@ -7980,7 +7980,7 @@ h4 small {
   }
 }
 .welcome {
-  padding-top: 4em;
+  padding-top: 6em;
   width: 175px;
   margin: 0 auto;
 }
@@ -8121,9 +8121,18 @@ h4 small {
   -moz-box-shadow: 0 0 0 1px #ffffff;
   box-shadow: 0 0 0 1px #ffffff;
 }
+body {
+  font-size: 14px;
+}
+body h2 {
+  font-size: 21px;
+}
+body h3 {
+  font-size: 18px;
+}
 .animated {
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -8155,7 +8164,7 @@ h4 small {
   padding-top: 3em;
 }
 .guelph-search-category h2 {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 400;
 }
 .guelph-search-category .box {
@@ -8170,7 +8179,6 @@ h4 small {
 .guelph-search-category .box img {
   text-align: center;
   margin: 0 auto;
-  width: 100px;
 }
 .guelph-search-category .box .module {
   margin: 20px auto;
@@ -8184,6 +8192,9 @@ h4 small {
 }
 .guelph-search-category .box .module-heading h3 a {
   color: #fff;
+}
+.guelph-search-category .box .module-heading .media-heading {
+  padding-top: 20px;
 }
 .homepage .row {
   position: relative;
