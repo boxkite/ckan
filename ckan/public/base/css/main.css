@@ -8459,6 +8459,7 @@ h4 small {
 .masthead .navigation .nav-pills li a:hover,
 .masthead .navigation .nav-pills li.active a {
   color: #f28433;
+  background-color: #464646;
 }
 .masthead .nav > li > a,
 .masthead .nav > li > a:focus,
