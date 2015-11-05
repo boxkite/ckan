@@ -8359,7 +8359,7 @@ h4 small {
 }
 .account-masthead .account ul li a:hover {
   color: #d9e7eb;
-  background-color: #00232e;
+  background-color: #0096CE;
   text-decoration: none;
 }
 .account-masthead .account ul li a.sub {
@@ -8458,8 +8458,7 @@ h4 small {
 }
 .masthead .navigation .nav-pills li a:hover,
 .masthead .navigation .nav-pills li.active a {
-  background-color: #00a6e5;
-  color: #fff;
+  color: #f28433;
 }
 .masthead .nav > li > a,
 .masthead .nav > li > a:focus,
