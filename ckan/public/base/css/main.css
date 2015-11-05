@@ -8155,8 +8155,8 @@ h4 small {
   padding-top: 3em;
 }
 .guelph-search-category h2 {
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 21px;
+  font-weight: 500;
 }
 .guelph-search-category .box {
   width: 200px;
@@ -8188,6 +8188,42 @@ h4 small {
 }
 .guelph-search-category .box .module-heading .media-heading {
   padding-top: 20px;
+}
+.guelph-organization-links {
+  margin-top: 5em;
+  padding-top: 3em;
+  background-color: #EFEFEF;
+}
+.guelph-organization-links h2 {
+  font-size: 21px;
+  font-weight: 500;
+}
+.guelph-organization-links .box {
+  margin: 1em;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+}
+.guelph-organization-links .box img {
+  display: none;
+}
+.guelph-organization-links .box .module {
+  margin: 20px auto;
+}
+.guelph-organization-links .box .module-image {
+  float: none;
+  margin-right: 0;
+}
+.guelph-organization-links .box .module-heading {
+  background-color: transparent;
+}
+.guelph-organization-links .box .module-heading h3 a {
+  color: #3b5998;
+  font-size: 18px;
+  font-weight: 600;
+}
+.guelph-organization-links .box .module-heading .media-heading {
+  padding-top: 0;
 }
 .homepage .row {
   position: relative;
