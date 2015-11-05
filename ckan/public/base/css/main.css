@@ -8189,43 +8189,54 @@ h4 small {
 .guelph-search-category .box .module-heading .media-heading {
   padding-top: 20px;
 }
-.guelph-organization-links {
+.guelph-featured-items {
   margin: 5em 0 3em;
   padding: 3em 0;
   background-color: #EFEFEF;
 }
-.guelph-organization-links section {
-  margin-right: 3em;
-}
-.guelph-organization-links h2 {
+.guelph-featured-items h2 {
   font-size: 21px;
   font-weight: 500;
 }
-.guelph-organization-links .box {
+.guelph-featured-items ul {
+  list-style-type: none;
+}
+.guelph-featured-items ul li a {
+  color: #3b5998;
+}
+.guelph-featured-items .guelph-featured-org-links {
+  border-left: 1px solid #d5d5d5;
+  padding-left: 1em;
+}
+.guelph-featured-items .guelph-featured-org-links h2 {
+  font-size: 18px;
+}
+.guelph-featured-items .box {
   background-color: transparent;
 }
-.guelph-organization-links .box img {
+.guelph-featured-items .box img {
   display: none;
 }
-.guelph-organization-links .box .module {
+.guelph-featured-items .box .module {
   margin: 0;
   padding: 0;
 }
-.guelph-organization-links .box .module-image {
+.guelph-featured-items .box .module-image {
   float: none;
   margin-right: 0;
 }
-.guelph-organization-links .box .module-heading {
+.guelph-featured-items .box .module-heading {
   background-color: transparent;
   margin: 0;
   padding: 0;
 }
-.guelph-organization-links .box .module-heading h3 a {
+.guelph-featured-items .box .module-heading h3 a {
   color: #3b5998;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 2em;
 }
-.guelph-organization-links .box .module-heading .media-heading {
+.guelph-featured-items .box .module-heading .media-heading {
   padding-top: 0;
 }
 .homepage .row {
