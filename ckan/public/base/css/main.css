@@ -8245,6 +8245,12 @@ h4 small {
 .guelph-featured-items .box .module-heading .media-heading {
   padding-top: 0;
 }
+.guelph-footer {
+  color: #fff;
+}
+.guelph-footer-city {
+  font-size: 1.25em;
+}
 .homepage .row {
   position: relative;
 }
@@ -8605,7 +8611,7 @@ h4 small {
   color: #ccdee3;
 }
 .site-footer a {
-  color: #ccdee3;
+  color: #f28433;
 }
 .footer-links ul li {
   margin-bottom: 5px;
