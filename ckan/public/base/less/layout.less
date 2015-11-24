@@ -141,30 +141,31 @@
 
 @media (min-width: 768px) {
   .hero {
-    background: url("@{imagePath}/guelph_bg.svg") no-repeat center bottom;
-    height:575px;
+    background: url("@{imagePath}/downtownguelph2.jpg") no-repeat center top;
+    height:425px;
+    background-size: cover;
   }
 }
 
 .welcome {
-  padding-top:6em;
-  width:175px;
-  margin:0 auto;
+  margin-top:6em;
+  width:550px;
+  text-align: left;
 
   h2 {
     font-size: 2.25em;
-    font-weight: 400;
-    color:#3A7BB6;
-  }
-
-  p {
-    font-size: 1.25em;
-    line-height:1.75em;
+    font-weight: 600;
+    color:#19A4DE;
+    background-color: #fff;
+    margin-top: 0;
+    padding:.25em;
   }
 
   img {
-    width:100%;
-    margin-left: -1em;
+    width:120px;
+    background-color: #fff;
+    padding:1em 3em;
+    float:left;
   }
 }
 
@@ -367,9 +368,7 @@
   background-color: #EFEFEF;
 
   .rectangle {
-    width: 100%;
-    height: 150px;
-    border:1px solid gray;
+ 
   }
 
   section {
@@ -388,7 +387,8 @@
        }
     }
 
-    .guelph-featured-org-links {
+.guelph-featured-org-links {
+  display: none;
       border-left: 1px solid #d5d5d5;
       padding-left: 1em;
       margin-left: 4em;
