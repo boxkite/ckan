@@ -7975,13 +7975,15 @@ h4 small {
 }
 .hero {
   background: url("../../../base/images/downtownguelph2.jpg") no-repeat center top;
-  height: 425px;
+  height: 300px;
   background-size: cover;
 }
 .welcome {
   margin-top: 6em;
   width: 550px;
+  height: 155px;
   text-align: left;
+  background-color: #fff;
 }
 .welcome h2 {
   font-size: 2.25em;
