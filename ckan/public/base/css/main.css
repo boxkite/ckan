@@ -5501,7 +5501,7 @@ a.tag:hover {
   padding: 7px 25px;
   font-size: 14px;
   line-height: 1.3;
-  background-color: #5C7A99;
+  background-color: #008A00;
   color: #fff;
 }
 .module-heading:before,
@@ -6888,7 +6888,7 @@ textarea {
   display: inline;
 }
 .dataset-resources li a {
-  background-color: #aaaaaa;
+  background-color: #000;
 }
 .dataset-heading .popular {
   top: 0;
@@ -6993,31 +6993,31 @@ textarea {
 }
 .label[data-format=html],
 .label[data-format*=html] {
-  background-color: #55a1ce;
+  background-color: #D1461E;
 }
 .label[data-format=json],
 .label[data-format*=json] {
-  background-color: #ef7100;
+  background-color: #008A00;
 }
 .label[data-format=xml],
 .label[data-format*=xml] {
-  background-color: #ef7100;
+  background-color: #00A6E5;
 }
 .label[data-format=text],
 .label[data-format*=text] {
-  background-color: #74cbec;
+  background-color: #8C0095;
 }
 .label[data-format=csv],
 .label[data-format*=csv] {
-  background-color: #dfb100;
+  background-color: #5133AB;
 }
 .label[data-format=xls],
 .label[data-format*=xls] {
-  background-color: #2db55d;
+  background-color: #094AB2;
 }
 .label[data-format=zip],
 .label[data-format*=zip] {
-  background-color: #686868;
+  background-color: #008299;
 }
 .label[data-format=api],
 .label[data-format*=api] {
@@ -8182,7 +8182,7 @@ h4 small {
   animation-name: fadeInDown;
 }
 .guelph-search-category {
-  padding: 3em 1em 0;
+  padding: 0 2em;
   margin: 0 auto;
 }
 .guelph-search-category h2 {
@@ -8194,6 +8194,8 @@ h4 small {
   height: 200px;
   margin: 1em;
   display: inline-flex;
+  display: -webkit-inline-flex;
+  /* Safari */
   background-color: #00A6E5;
   color: #fff;
   text-align: center;
