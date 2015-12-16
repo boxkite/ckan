@@ -7975,6 +7975,7 @@ h4 small {
 }
 .hero {
   background: url("../../../base/images/downtownguelph2.jpg") no-repeat center top;
+  background-image: url("../../../base/images/downtownguelph2.jpg");
   height: 300px;
   background-size: cover;
 }
@@ -8306,7 +8307,6 @@ h4 small {
 .homepage .search {
   width: 100%;
   background-color: #fff;
-  padding-bottom: 1.5em;
 }
 .homepage .search img {
   width: 175px;
