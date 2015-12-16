@@ -5513,6 +5513,12 @@ a.tag:hover {
 .module-heading:after {
   clear: both;
 }
+@media (max-width: 768px) {
+  .module-heading {
+    background-color: #fff;
+    border-bottom: 1px solid #dddddd;
+  }
+}
 .module-content {
   padding: 0 25px;
   margin: 20px 0;
