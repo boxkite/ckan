@@ -5516,7 +5516,6 @@ a.tag:hover {
 @media (max-width: 768px) {
   .module-heading {
     background-color: #fff;
-    border-bottom: 1px solid #dddddd;
   }
 }
 .module-content {
@@ -7027,7 +7026,8 @@ textarea {
 }
 .label[data-format=api],
 .label[data-format*=api] {
-  background-color: #ec96be;
+  background-color: #0099F0;
+  text-transform: uppercase;
 }
 .label[data-format=pdf],
 .label[data-format*=pdf] {
@@ -8293,7 +8293,8 @@ h4 small {
 }
 .guelph-footer-menu li {
   display: inline-block;
-  margin-right: 1.1em;
+  margin-right: 1.25em;
+  margin-bottom: 1.25em;
   font-size: 1.25em;
 }
 .guelph-footer-menu li a:hover {
