@@ -141,15 +141,17 @@
 
 
 .hero {
-    background: url("@{imagePath}/downtownguelph2.jpg") no-repeat center top;
-    background-image: url("@{imagePath}/downtownguelph2.jpg");
+    background: url("@{imagePath}/guelphaerial.jpg") no-repeat center top;
+    background-image: url("@{imagePath}/guelphaerial.jpg");
     height:300px;
     background-size: cover;
+
 }
 
 
 .welcome {
-  margin-top:6em;
+  margin-top:5em;
+  float:right;
   width:475px;
   height:155px;
   text-align: left;
@@ -171,10 +173,15 @@
     float:left;
   }
 
+  @media (max-width: 768px) {
+    margin-right: 2em;
+  }
+
   @media only screen and (max-width: 595px) {
     width:275px;
     margin:6em auto 0;
     text-align: center;
+    float:none;
     h2 {
       font-size: 1.5em;
       padding:.25em 0 .5em;
@@ -388,6 +395,13 @@
 
         .media-heading {
           padding-top: 20px;
+          word-break:keep-all;
+          -webkit-word-break:keep-all;
+          -moz-word-break:keep-all;
+          word-break:break-word;
+          -webkit-word-break:break-word;
+          -moz-word-break:break-word;
+
         }
     }
   }
