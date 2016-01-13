@@ -5648,6 +5648,7 @@ a.tag:hover {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  max-width: 170px;
   float: left;
   margin-left: 20px;
   width: 460px;
@@ -8312,6 +8313,9 @@ h4 small {
 }
 .guelph-footer-menu li a:hover {
   color: #fff;
+}
+.media-item {
+  max-width: 170px;
 }
 .homepage .row {
   position: relative;
