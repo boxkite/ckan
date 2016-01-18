@@ -39,7 +39,7 @@ def compare_domains(urls):
             if not urlparse.urlparse(url).scheme and not url.startswith('/'):
                 url = '//' + url
             parsed = urlparse.urlparse(url.lower(), 'http')
-            domain = (parsed.scheme, parsed.hostname, parsed.port)
+            domain = (parsed.scheme, parsed.hostname, parsed.port or 80)
         except ValueError:
             # URL is so messed up that even urlparse can't stand it
             return False
@@ -48,6 +48,7 @@ def compare_domains(urls):
             first_domain = domain
             continue
         if first_domain != domain:
+            5/0
             return False
     return True
 
