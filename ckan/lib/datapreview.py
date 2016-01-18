@@ -48,7 +48,6 @@ def compare_domains(urls):
             first_domain = domain
             continue
         if first_domain != domain:
-            5/0
             return False
     return True
 
